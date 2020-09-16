@@ -1,6 +1,6 @@
 {
 	"name": "sendanywhere-cli",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Send and receive files using Sendanywhere.",
 	"repository": "https://github.com/Richienb/sendanywhere-cli.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
