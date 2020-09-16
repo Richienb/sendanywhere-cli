@@ -1,26 +1,55 @@
 {
-	"name": "the-module",
+	"name": "sendanywhere-cli",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "Send and receive files using Sendanywhere.",
+	"repository": "https://github.com/Richienb/sendanywhere-cli.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
-	"main": "index.js",
+	"main": "cli.js",
+	"bin": {
+		"sendanywhere": "cli.js"
+	},
 	"files": [
 		"index.js",
-		"index.d.ts"
+		"lib"
 	],
 	"engines": {
-		"node": ">=10"
+		"node": "^10.17 || >=11.14"
 	},
 	"scripts": {
 		"lint": "xo",
 		"test": "xo && ava"
 	},
-	"keywords": [],
-	"dependencies": {},
+	"keywords": [
+		"sendanywhere",
+		"cli",
+		"file",
+		"transfer",
+		"send",
+		"receive",
+		"stream"
+	],
+	"dependencies": {
+		"ask-text": "^1.0.0",
+		"chalk": "^4.1.0",
+		"conf": "^7.1.2",
+		"download": "^8.0.0",
+		"form-data": "^3.0.0",
+		"got": "^11.6.2",
+		"humanize-list": "^1.0.1",
+		"jquery-param": "^1.1.3",
+		"log-symbols": "^4.0.0",
+		"meow": "^7.1.1",
+		"ora": "^5.1.0",
+		"p-map": "^4.0.0",
+		"rxjs": "^6.6.3",
+		"terminal-link": "^2.1.1",
+		"tough-cookie": "^4.0.0",
+		"update-notifier": "^4.1.1"
+	},
 	"devDependencies": {
 		"ava": "^3.12.1",
+		"del": "^5.1.0",
 		"eslint-config-richienb": "^0.4.2",
 		"xo": "^0.33.1"
 	},

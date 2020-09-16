@@ -1,41 +1,21 @@
-# the-module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# sendanywhere-cli [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/sendanywhere-cli/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/sendanywhere-cli)
 
-My awesome module.
+Send and receive files using Sendanywhere.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/sendanywhere-cli.png)](https://npmjs.com/package/sendanywhere-cli)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install --global sendanywhere-cli
 ```
 
 ## Usage
 
-```js
-const theModule = require("the-module");
+```sh
+$ sendanywhere send file.png
+✔ Key: 123456 - Finished uploading!
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+$ sendanywhere receive 123456
+✔ Finished downloading!
 ```
-
-## API
-
-### theModule(input, options?)
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.

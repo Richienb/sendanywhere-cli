@@ -1,3 +1,6 @@
+# Testing directory
+test-temp/
+
 # Lockfiles
 
 package-lock.json
